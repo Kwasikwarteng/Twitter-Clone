@@ -1,0 +1,13 @@
+*{
+    margin: auto;
+}
+
+.Main{
+    display: flex;
+    flex-direction: row;
+}
+
+.leftSide{
+    padding: 10px;
+}
+
