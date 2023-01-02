@@ -112,9 +112,9 @@ padding: 10px 15px;
     color: #14171a;
 }
 
-.trendsMain{
+/* .trendsMain{
 
-}
+} */
 
 .tweetTxt{
     font-style: 13px;
@@ -174,4 +174,178 @@ padding: 10px 15px;
 .followBtn:hover{
     background: rgba(29, 161, 242, 0.1);
     cursor: pointer;
+}
+
+.tweetBtn{
+    padding-top: 20px;
+    margin-top: -20px;
+    background: #149df2;
+    text-align: center;
+    border-radius: 20px;
+    padding: 8px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.userAccount{
+    margin-top: 420px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+   
+}
+
+.userAccount:hover{
+    cursor: pointer;
+    background: #d9dcdf;
+    border-radius: 30px;
+}
+
+.userAccount img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.userAccountContent{
+     display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.userAccountName{
+    font-weight: 700;
+    font-style: 15px;
+}
+
+.whats-happening{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #e6ecf0;
+}
+
+
+
+.whats-happeningHeader{
+    padding: 10px;
+}
+
+.whats-happeningName{
+    font-weight: 700;
+    font-style: 15px;
+    padding: 10px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.whats-happeningContent{
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+}
+
+.whats-happeningIconsDiv{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 10px;
+ border-bottom: 1px solid #e6ecf0;
+}
+
+.homeTxt{
+    padding: 10px;
+}
+
+.whats-happening img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.middleHeaderTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.whats-happeningIcons svg{
+   
+    
+    margin-top: 10px;
+    height: 18px;
+    filter: invert(54%) sepia(62%) saturate(3437%) hue-rotate(179deg) brightness(97%) contrast(95%);
+}
+.followBtn{
+    border: 1px solid #1da0f2;
+    color: #1da0f2;
+    font-style: 15px;
+    font-weight: 700;
+    border-radius: 15px;
+    padding: 5px;
+    min-width: 67px;
+    text-align: center;
+}
+.followBtn:hover{
+    background: rgba(29, 161, 242, 0.1);
+    cursor: pointer;
+}
+
+.tweetBtn{
+    padding-top: 20px;
+    margin-top: 20px;
+    background: #149df2;
+    text-align: center;
+    border-radius: 20px;
+    padding: 8px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.tweetBtn:hover{
+    cursor: pointer;
+}
+.tweetBtnTop{
+    padding-top: 20px;
+    margin-top: 20px;
+    background: #82cfff;
+    text-align: center;
+    border-radius: 20px;
+    padding: 8px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    
+}
+
+.tweetBtnTop:hover{
+    cursor: pointer;
+}
+.starIcon svg{
+    height: 18px;
+    padding: 20px;
+}
+
+.searchBar{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.searchBar input{
+border-radius: 15px;
+width: 100%;
+padding: 15px;
+border: none;
+background: #f5f8fd;
 }
