@@ -7,25 +7,354 @@
     <title>Home / Twitter</title>
   </head>
   <body>
-    <!-- Main Page -->
+    <section class="content">
+      <div class="content__leftContainer">
+        <div class="content__leftSidebar">
+          <!-- Twitter SVG -->
+          <img class="twitterSVG" />
+          <svg
+            class="twitterSVG"
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+            class="r-1cvl2hr r-4qtqp9 r-yyyyoo r-16y2uox r-8kz0gk r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp"
+          >
+            <g>
+              <path
+                d="M23.643 4.937c-.835.37-1.732.62-2.675.733.962-.576 1.7-1.49 2.048-2.578-.9.534-1.897.922-2.958 1.13-.85-.904-2.06-1.47-3.4-1.47-2.572 0-4.658 2.086-4.658 4.66 0 .364.042.718.12 1.06-3.873-.195-7.304-2.05-9.602-4.868-.4.69-.63 1.49-.63 2.342 0 1.616.823 3.043 2.072 3.878-.764-.025-1.482-.234-2.11-.583v.06c0 2.257 1.605 4.14 3.737 4.568-.392.106-.803.162-1.227.162-.3 0-.593-.028-.877-.082.593 1.85 2.313 3.198 4.352 3.234-1.595 1.25-3.604 1.995-5.786 1.995-.376 0-.747-.022-1.112-.065 2.062 1.323 4.51 2.093 7.14 2.093 8.57 0 13.255-7.098 13.255-13.254 0-.2-.005-.402-.014-.602.91-.658 1.7-1.477 2.323-2.41z"
+              ></path>
+            </g>
+          </svg>
+
+          <!-- Sidebar Menu -->
+          <div class="leftSidebarMenu">
+            <div class="lefSidebarMenu-List">
+              <!-- Home -->
+              <img />
+              <svg
+                class="homeSVG"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+                class="r-18jsvk2 r-4qtqp9 r-yyyyoo r-lwhw9o r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-cnnz9e"
+              >
+                <g>
+                  <path
+                    d="M12 1.696L.622 8.807l1.06 1.696L3 9.679V19.5C3 20.881 4.119 22 5.5 22h13c1.381 0 2.5-1.119 2.5-2.5V9.679l1.318.824 1.06-1.696L12 1.696zM12 16.5c-1.933 0-3.5-1.567-3.5-3.5s1.567-3.5 3.5-3.5 3.5 1.567 3.5 3.5-1.567 3.5-3.5 3.5z"
+                  ></path>
+                </g>
+              </svg>
+              Home
+
+              <!-- Explore -->
+              <img />
+              <svg
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+                class="r-18jsvk2 r-4qtqp9 r-yyyyoo r-lwhw9o r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-cnnz9e"
+              >
+                <g>
+                  <path
+                    d="M10.64 3.157l-.36 3.593h4.99l.38-3.892 2.99.299-.36 3.593h2.97v2.5h-3.22l-.55 5.5h2.77v2.5h-3.02l-.39 3.892-2.98-.299.36-3.593H9.23l-.39 3.892-2.98-.299.36-3.593H2.75v-2.5h3.72l.55-5.5H3.75v-2.5h3.52l.38-3.892 2.99.299zm3.83 11.593l.55-5.5h-4.99l-.55 5.5h4.99z"
+                  ></path>
+                </g>
+              </svg>
+              Explore
+
+              <!-- Notifications -->
+              <img />
+              <svg
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+                class="r-18jsvk2 r-4qtqp9 r-yyyyoo r-lwhw9o r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-cnnz9e"
+              >
+                <g>
+                  <path
+                    d="M19.993 9.042C19.48 5.017 16.054 2 11.996 2s-7.49 3.021-7.999 7.051L2.866 18H7.1c.463 2.282 2.481 4 4.9 4s4.437-1.718 4.9-4h4.236l-1.143-8.958zM12 20c-1.306 0-2.417-.835-2.829-2h5.658c-.412 1.165-1.523 2-2.829 2zm-6.866-4l.847-6.698C6.364 6.272 8.941 4 11.996 4s5.627 2.268 6.013 5.295L18.864 16H5.134z"
+                  ></path>
+                </g>
+              </svg>
+              Notifications
+
+              <!-- Messages -->
+              <img />
+              <svg
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+                class="r-18jsvk2 r-4qtqp9 r-yyyyoo r-lwhw9o r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-cnnz9e"
+              >
+                <g>
+                  <path
+                    d="M1.998 5.5c0-1.381 1.119-2.5 2.5-2.5h15c1.381 0 2.5 1.119 2.5 2.5v13c0 1.381-1.119 2.5-2.5 2.5h-15c-1.381 0-2.5-1.119-2.5-2.5v-13zm2.5-.5c-.276 0-.5.224-.5.5v2.764l8 3.638 8-3.636V5.5c0-.276-.224-.5-.5-.5h-15zm15.5 5.463l-8 3.636-8-3.638V18.5c0 .276.224.5.5.5h15c.276 0 .5-.224.5-.5v-8.037z"
+                  ></path>
+                </g>
+              </svg>
+              Messages
+
+              <!-- Bookmarks -->
+              <img />
+              <svg
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+                class="r-18jsvk2 r-4qtqp9 r-yyyyoo r-lwhw9o r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-cnnz9e"
+              >
+                <g>
+                  <path
+                    d="M4 4.5C4 3.12 5.119 2 6.5 2h11C18.881 2 20 3.12 20 4.5v18.44l-8-5.71-8 5.71V4.5zM6.5 4c-.276 0-.5.22-.5.5v14.56l6-4.29 6 4.29V4.5c0-.28-.224-.5-.5-.5h-11z"
+                  ></path>
+                </g>
+              </svg>
+              Bookmarks
+
+              <!-- Lists -->
+              <img />
+              <svg
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+                class="r-18jsvk2 r-4qtqp9 r-yyyyoo r-lwhw9o r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-cnnz9e"
+              >
+                <g>
+                  <path
+                    d="M3 4.5C3 3.12 4.12 2 5.5 2h13C19.88 2 21 3.12 21 4.5v15c0 1.38-1.12 2.5-2.5 2.5h-13C4.12 22 3 20.88 3 19.5v-15zM5.5 4c-.28 0-.5.22-.5.5v15c0 .28.22.5.5.5h13c.28 0 .5-.22.5-.5v-15c0-.28-.22-.5-.5-.5h-13zM16 10H8V8h8v2zm-8 2h8v2H8v-2z"
+                  ></path>
+                </g>
+              </svg>
+              Lists
+
+              <!-- Profile -->
+              <img />
+              <svg
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+                class="r-18jsvk2 r-4qtqp9 r-yyyyoo r-lwhw9o r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-cnnz9e"
+              >
+                <g>
+                  <path
+                    d="M5.651 19h12.698c-.337-1.8-1.023-3.21-1.945-4.19C15.318 13.65 13.838 13 12 13s-3.317.65-4.404 1.81c-.922.98-1.608 2.39-1.945 4.19zm.486-5.56C7.627 11.85 9.648 11 12 11s4.373.85 5.863 2.44c1.477 1.58 2.366 3.8 2.632 6.46l.11 1.1H3.395l.11-1.1c.266-2.66 1.155-4.88 2.632-6.46zM12 4c-1.105 0-2 .9-2 2s.895 2 2 2 2-.9 2-2-.895-2-2-2zM8 6c0-2.21 1.791-4 4-4s4 1.79 4 4-1.791 4-4 4-4-1.79-4-4z"
+                  ></path>
+                </g>
+              </svg>
+              Profile
+
+              <!-- More -->
+              <img />
+              <svg
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+                class="r-18jsvk2 r-4qtqp9 r-yyyyoo r-lwhw9o r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-cnnz9e"
+              >
+                <g>
+                  <path
+                    d="M3.75 12c0-4.56 3.69-8.25 8.25-8.25s8.25 3.69 8.25 8.25-3.69 8.25-8.25 8.25S3.75 16.56 3.75 12zM12 1.75C6.34 1.75 1.75 6.34 1.75 12S6.34 22.25 12 22.25 22.25 17.66 22.25 12 17.66 1.75 12 1.75zm-4.75 11.5c.69 0 1.25-.56 1.25-1.25s-.56-1.25-1.25-1.25S6 11.31 6 12s.56 1.25 1.25 1.25zm9.5 0c.69 0 1.25-.56 1.25-1.25s-.56-1.25-1.25-1.25-1.25.56-1.25 1.25.56 1.25 1.25 1.25zM13.25 12c0 .69-.56 1.25-1.25 1.25s-1.25-.56-1.25-1.25.56-1.25 1.25-1.25 1.25.56 1.25 1.25z"
+                  ></path>
+                </g>
+              </svg>
+              More
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content__center">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam atque
+        aut ducimus nobis at eos, distinctio consequatur iusto, aliquam voluptas
+        recusandae facilis doloremque nostrum, sint accusamus nemo! Nesciunt
+        tempore unde recusandae, eaque assumenda veniam sequi reprehenderit sit
+        animi vel aspernatur, ratione suscipit aliquam maxime repellat.
+        Voluptate numquam animi laborum delectus. Magni libero iure quidem autem
+        excepturi non, blanditiis alias quod quisquam consectetur nemo ab,
+        facere consequuntur accusamus cumque numquam natus, ea dolorum
+        perspiciatis voluptatibus vel! Corporis hic, quos quas fugit possimus
+        placeat labore vero consectetur esse dolor! Quidem libero, magnam
+        exercitationem laudantium impedit voluptate a hic adipisci ullam
+        voluptatem iure non ratione iste facilis odit blanditiis unde quisquam!
+        Excepturi, impedit facilis deleniti, nostrum qui quibusdam asperiores
+        accusantium totam consequuntur quae quos soluta neque officia libero
+        quis molestiae porro veniam officiis enim provident vel illo, culpa at!
+        Recusandae rerum odit numquam tempore fuga ipsa assumenda voluptatem
+        error, consectetur voluptates magnam tenetur tempora iure voluptatum a
+        blanditiis asperiores. Nesciunt autem fugit quibusdam veniam impedit
+        quos dolores atque necessitatibus error placeat harum repudiandae
+        facilis iure consequuntur maxime libero, nihil incidunt. Aperiam
+        molestiae ab, consequatur aspernatur deleniti necessitatibus quam
+        reprehenderit cumque vitae sit asperiores perspiciatis adipisci? Dolorem
+        totam minima deserunt sapiente eos! Vitae, harum ea ab voluptatibus
+        culpa repellat quia doloremque accusantium sed est et natus repellendus
+        nostrum! Facere vel dolorem placeat tempora. Recusandae sit possimus
+        deserunt maiores, delectus eaque omnis eos quo, labore corporis ullam
+        praesentium ex exercitationem aliquid neque, impedit doloribus quis odio
+        non explicabo aliquam! Ea veniam consequuntur dolore sint aperiam quasi
+        laboriosam debitis, modi deserunt esse maxime a, qui ullam dolor. Nisi,
+        quidem suscipit. Est voluptate dicta aut. Culpa inventore veniam minus
+        commodi, suscipit deserunt numquam? Corporis, minima iste! Quasi odit
+        amet commodi magni tenetur illo ex maiores, ipsum quidem. Fugit pariatur
+        beatae, fugiat labore sapiente, enim a deserunt non, sed tenetur
+        accusantium magni! Quo necessitatibus, aliquam earum eius facere ratione
+        odio autem in assumenda sequi. Recusandae consequatur placeat maiores
+        nostrum nihil error fugit magni, numquam eveniet iure enim corporis
+        accusantium eius minus officiis iusto non quidem ab. Eos, vel ad dolorem
+        deleniti vitae, ipsum nesciunt omnis in ducimus iure explicabo! Ipsam,
+        iusto dolorum autem illo tenetur maxime laborum numquam quis quo veniam
+        veritatis quod, repudiandae magni nulla sapiente perferendis non cumque
+        maiores quasi asperiores iure. Suscipit, corporis tempore.
+        Necessitatibus delectus repudiandae dolores sunt laborum, ut ipsa? Eum
+        dicta a voluptatibus numquam autem inventore nihil ipsa fugiat minus
+        tempore. Est, dignissimos nihil? Sed non hic sequi dolorem inventore
+        possimus delectus necessitatibus saepe optio vel similique cum vero
+        harum, recusandae iste, ab dolores voluptate. Aspernatur, nesciunt illo
+        iste soluta dignissimos fugiat, laborum error rerum cum magni dolor
+        quaerat, tempore neque! Commodi veniam, temporibus animi aperiam
+        asperiores sunt odio maxime quasi mollitia voluptatum beatae quos,
+        architecto magnam fuga, officia delectus voluptatem harum ab. Ea libero,
+        sit nesciunt iste dicta sint provident fugit modi nemo quasi officia
+        debitis molestiae beatae necessitatibus illum rerum quisquam repellendus
+        cupiditate hic voluptatibus quia numquam. Neque facere atque architecto
+        esse repellat necessitatibus tempora quaerat quis culpa nesciunt fugiat
+        quidem itaque maxime nisi assumenda quo ab est, ducimus sapiente qui.
+        Consectetur maxime qui recusandae ratione? Dolorem distinctio
+        repellendus fugiat laboriosam neque accusamus, dignissimos eveniet
+        corrupti doloremque quos ratione aliquid totam provident voluptates
+        magnam inventore, natus dolor mollitia et necessitatibus. Consequatur,
+        accusamus. Deserunt est consectetur blanditiis nobis. Omnis sequi
+        dolorum inventore libero ipsa nam enim, quisquam illo ad aspernatur
+        eveniet odio ut natus at animi a reprehenderit numquam unde ipsam
+        blanditiis, pariatur eligendi qui repellendus. Eum, nulla recusandae
+        illum iste facere iure. Praesentium accusantium officia unde tenetur ea
+        ut nam aperiam consequuntur iusto excepturi. Accusamus dolorem error
+        assumenda iure. Magnam illo alias quam voluptatem ipsam eaque
+        perspiciatis facilis totam similique ullam quasi, assumenda, fugiat
+        dolore inventore dolor nulla. Atque, hic ipsam id, recusandae excepturi
+        distinctio cumque ut dolorem aliquid explicabo consectetur labore
+        dolorum, repudiandae ipsum perspiciatis ex aspernatur voluptates in
+        quibusdam voluptate et sed accusamus! Voluptatum temporibus ratione
+        autem dolorum doloribus! Nemo exercitationem praesentium velit nobis
+        aspernatur eos ullam excepturi sed molestiae laudantium iste eligendi at
+        deserunt recusandae hic, ducimus tempora iure sapiente eum repudiandae,
+        ipsam officiis? Ipsa maxime sit voluptates libero beatae dolores optio
+        esse, incidunt id consequuntur odio eveniet sequi mollitia explicabo
+        fugit eos repellendus! Suscipit nostrum mollitia obcaecati illo vero in
+        dolor repudiandae quam culpa! Eaque illo consectetur animi dolores
+        quasi. Dolorem in voluptate voluptatibus inventore eum quo doloremque
+        ipsa totam distinctio doloribus. Quia nesciunt voluptate reiciendis
+        doloribus voluptates. Iure, vero? Ullam praesentium iste pariatur quod
+        vel labore officia maxime, molestias itaque atque mollitia nemo. Dolorem
+        commodi, libero possimus sunt voluptate culpa quibusdam doloremque
+        eveniet sed, aperiam molestias sint ab consequatur nulla minus nobis hic
+        vero veritatis vitae. Optio vitae iure labore incidunt eaque rerum esse
+        non numquam beatae. Rem ut necessitatibus eum, sed blanditiis sequi modi
+        doloribus aperiam vitae dolore, tempora quidem autem sit impedit dolorum
+        aliquid optio? Cupiditate aspernatur libero error reprehenderit
+        consequatur quod dolor nobis tempora incidunt at facilis deserunt
+        voluptas quis voluptatibus iste consectetur, ipsam sit perspiciatis
+        expedita sapiente tempore et inventore commodi! Dignissimos, possimus.
+        Dolor hic sed minima, molestiae a animi facilis nesciunt repellat
+        expedita commodi praesentium illum ipsum rerum excepturi odit totam
+        provident at iusto harum, doloremque debitis aliquam sunt. Eum qui
+        fugiat pariatur nihil nam suscipit delectus facilis quidem fugit sit,
+        assumenda fuga nobis aut aliquam modi maxime? Illum, iste ipsum odit
+        quis dolorem a ad vitae consequatur natus. Inventore velit id magnam vel
+        voluptas. Totam autem accusamus, dolores a quod nostrum praesentium
+        labore fugiat error consequatur maiores magni quae quisquam aut facere
+        fuga, enim soluta iste mollitia expedita commodi! Earum deserunt harum
+        mollitia architecto? Autem ad pariatur magnam, repellat possimus illo
+        vero. Eligendi totam placeat eius. Odio soluta ad, quia rem in suscipit
+        libero deleniti earum fugiat numquam porro temporibus aperiam
+        reiciendis, voluptates sunt perspiciatis perferendis odit ducimus iure
+        similique modi nostrum architecto. Quo libero unde provident quisquam
+        numquam nihil expedita saepe molestias ex nesciunt sed, quia explicabo
+        quasi vitae fugiat reiciendis dignissimos! Temporibus quisquam possimus
+        commodi harum, beatae, omnis at eos corrupti, sapiente vel sint. Cum,
+        vel aliquam.
+      </div>
+      <div class="content__rightContainer">
+        <div class="content__rightSidebar">Right</div>
+      </div>
+    </section>
+  </body>
+</html>
+<!-- Main Page
     <section>
       <div class="Main">
-        <!-- Left Side -->
+        
         <div class="leftSide">
-          <div><i class="fa-brands fa-twitter"></i></div>
-          <div><i class="fa-solid fa-house-window"></i>Home</div>
-          <div>Explore</div>
-          <div>Notifications</div>
-          <div>Messages</div>
-          <div>Bookmarks</div>
-          <div>Lists</div>
-          <div>Profile</div>
-          <div>More</div>
+        <div>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+         <div class="leftNavLinks">
+            <div>
+                <i class="fa-solid fa-house-chimney-window"></i></i>
+            </div>
+            <div><p>Home</p></div>
+        </div>
+        <div class="leftNavLinks">
+            <i class="fa-solid fa-hashtag"></i>
+            <p>Explore</p>
+        </div>
+        <div class="leftNavLinks">
+            <i class="fa-regular fa-bell"></i>
+            <p>Notifications</p>
+        </div>
+        <div class="leftNavLinks">
+            <i class="fa-regular fa-envelope"></i>
+            <p>Messages</p>
+        </div>
+        <div class="leftNavLinks">
+            <i class="fa-regular fa-bookmark"></i>
+            <p>Bookmarks</p>
+        </div>
+        <div class="leftNavLinks">
+            <i class="fa-light fa-square-poll-horizontal"></i>
+            <p>Lists</p>
+        </div>
+        <div class="leftNavLinks">
+            <i class="fa-regular fa-user"></i>
+            <p>Profile</p>
+        </div>
+        <div class="leftNavLinks">
+            <i class="fa-light fa-circle-ellipsis"></i>
+            <p>More</p>
+        </div>
+        <div class="leftTweet">Tweet</div>
+
+        <div class="leftNavBottom">
+            <div>
+                <img src="../../public/images/new.png" height="30px" width="30px" alt="profile" />
+            </div>
+            <div>
+                <b><p>Caleb</p></b>
+                <p>@Calebbuebngk</p>
+            </div>
+            <div>
+                <b>...</b>
+            </div>
+            
+        </div>
         </div>
 
-        <!-- Middle Side -->
-        <div>c</div>
-        <!-- Right Side -->
+        
+
+        
+        <div class="middleSide">
+            
+            <div class="middleTop">
+                <div>
+                    <p><b>Home</b></p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+            </div>
+            <div class="middleHead">
+                
+                <div>
+                    <img src="../../public/images/new.png" height="30px" width="30px" alt="profile" />
+                </div>
+                <div>
+                    <p>What's happening?</p>
+                </div>
+                <div>
+                    <button>Tweet</button>
+                </div>
+            </div>
+        </div>
+     
         <div>b</div>
       </div>
     </section>
@@ -33,6 +362,4 @@
     <script
       src="https://kit.fontawesome.com/c61be64a36.js"
       crossorigin="anonymous"
-    ></script>
-  </body>
-</html>
+    ></script>-->
